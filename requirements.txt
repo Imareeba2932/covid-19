@@ -1,0 +1,7 @@
+pandas
+numpy
+matplotlib
+streamlit
+bar_chart_race
+plotly
+nbformat
