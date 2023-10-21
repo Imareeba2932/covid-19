@@ -9,8 +9,8 @@ st.markdown ("<h1 style='text-align:center; color:red;'>COVID-19 Data Analysis a
 st.markdown("<p style='color: red; background-color: yellow; padding: 10px; width: 100%;'>Welcome to our COVID-19 Data Analysis and Visualization Dashboard! Track the pandemic's progress with real-time data updates, interactive visualizations, and comparative analysis. Gain global and regional insights, customize charts and graphs, and access predictive analytics. Stay informed, stay safe!</p>", unsafe_allow_html=True)
 
 #load dataset
-dfd = pd.read_csv(r"C:\Users\LENOVO\Documents\covid-19\worldometer_coronavirus_daily_data.csv")
-dfs = pd.read_csv(r"C:\Users\LENOVO\Documents\covid-19\worldometer_coronavirus_summary_data.csv")
+dfd = pd.read_csv(r"covid-19\worldometer_coronavirus_daily_data.csv")
+dfs = pd.read_csv(r"covid-19\worldometer_coronavirus_summary_data.csv")
 
 #graphs plotting
 dfs["mortality_rate"] = dfs["total_deaths"]/dfs["population"]*100
